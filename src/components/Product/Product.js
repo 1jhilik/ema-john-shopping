@@ -1,8 +1,8 @@
-import { faCoffee, faShoppingCart } from '@fortawesome/free-solid-svg-icons';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Product.css'
-const Product = ({product, handleAddToClick: handleAddToCart}) => {
+const Product = ({product, handleAddToCart}) => {
     // const {product, handleAddToCart} = props;
     const {name, img, seller, price, ratings} = product;
     // const {handleAddToCart} = props;
